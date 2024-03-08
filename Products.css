@@ -1,0 +1,32 @@
+.Products {
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.Products h1 {
+    font-style: italic;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+}
+.row {
+    display: flex;
+    gap: 20px;
+}
+.col {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.col img {
+    width: 140px;
+    height: 200px;
+    border-radius: 3px;
+}
+.col img:hover {
+    opacity: 0.4;
+}

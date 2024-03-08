@@ -1,0 +1,34 @@
+.container {
+    border: solid;
+    border-color: aqua;
+    border-radius: 7px;
+    display: flex;
+}
+.card {
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    height: 450px;
+    width: 250px;
+    margin-left: 49px;
+}
+.img {
+  height: 320px;  
+  width: 250px;
+}
+.Content {
+    font-size: 17px;
+    font: bolder;
+    margin-left: 5px;
+}
+.Links {
+    text-align: right;
+    margin-right: 10px;
+}
+h1 {
+    font-style: italic;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-align: center;
+}
